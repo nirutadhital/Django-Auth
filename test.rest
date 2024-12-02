@@ -1,0 +1,26 @@
+POST http://127.0.0.1:8000/login/
+Content-Type: application/json
+
+{
+    "username":"niruta1",
+    "password":"niruta1@123"
+}
+
+###
+
+POST  http://127.0.0.1:8000/signup/
+Content-Type: application/json
+
+{
+    "username":"niruta1",
+    "password":"niruta1@123",
+    "email":"niruta1@gmail.com"
+}
+
+###
+GET  http://127.0.0.1:8000/test_token/
+Content-Type:application/json
+Authorization: Token 5b64cd60a2d83b2f59ac437348f72e3fae317736
+
+{}
+
